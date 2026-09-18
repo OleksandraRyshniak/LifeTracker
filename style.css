@@ -78,7 +78,7 @@ button.secondary:hover { background: #f0f0f0; }
     font-weight: bold;
 }
 .good { color: #2a9d5c; }
-.bad { color: #d64545; }
+.bad { color: #d64548; }
 hr { border: none; border-top: 1px solid #e0e0e0; margin: 28px 0; }
 .add-row { display: flex; gap: 8px; }
 .add-row input { margin-bottom: 0; }
