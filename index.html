@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sõnavara kontroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="page-title">Sõnavara kontroll</h1>
+
+    <div class="table">
+        <!-- Veerg 1: eesti sõna -> vene tõlge (olemasolev variant) -->
+        <div class="card">
+            <h2>🇪🇪 → 🇷🇺</h2>
+            <p class="score" id="scoreEtRu">Skoor: 0 / 0</p>
+
+            <div class="word-box" id="wordBoxEtRu">—</div>
+
+            <input id="answerEtRu" type="text" placeholder="Kirjuta tõlge vene keeles...">
+            <button id="checkBtnEtRu">KONTROLLI</button>
+            <p class="result" id="resultEtRu"></p>
+            <button id="refreshBtnEtRu" class="secondary">🔄 UUS SÕNA</button>
+        </div>
+
+        <!-- Veerg 2: vene sõna -> eesti tõlge (vastupidine variant) -->
+        <div class="card">
+            <h2>🇷🇺 → 🇪🇪</h2>
+            <p class="score" id="scoreRuEt">Skoor: 0 / 0</p>
+
+            <div class="word-box" id="wordBoxRuEt">—</div>
+
+            <input id="answerRuEt" type="text" placeholder="Kirjuta tõlge eesti keeles...">
+            <button id="checkBtnRuEt">KONTROLLI</button>
+            <p class="result" id="resultRuEt"></p>
+            <button id="refreshBtnRuEt" class="secondary">🔄 UUS SÕNA</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="card add-card">
+        <h2>Lisa uus sõna</h2>
+        <div class="add-row">
+            <input id="newWord" type="text" placeholder="eesti keeles">
+            <input id="newTranslation" type="text" placeholder="tõlge vene keeles">
+        </div>
+        <button id="addBtn">LISA SÕNASTIKKU</button>
+        <p class="result" id="addResult"></p>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
