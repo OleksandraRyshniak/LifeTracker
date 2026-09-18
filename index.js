@@ -9,7 +9,8 @@ let vocabulary = [
     { word: "sõber", translation: "друг" },
     { word: "kool", translation: "школа" },
     { word: "puu", translation: "дерево" },
-    { word: "mahl", translation: "сок" }
+    { word: "mahl", translation: "сок" },
+    { word: "jah", translation: "да" }
 ];
 
 // Iga suuna jaoks hoiame eraldi olekut (praegune sõna, õigete/kõigi vastuste arv)
