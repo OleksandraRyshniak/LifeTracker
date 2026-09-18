@@ -1,4 +1,5 @@
 // Sõnastik, mida kasutatakse mõlemas suunas (eesti->vene ja vene->eesti)
+//test
 let vocabulary = [
     { word: "tere", translation: "привет" },
     { word: "aitäh", translation: "спасибо" },
